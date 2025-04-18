@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+    <nav id="navbar" class="navbar-black">
+        <a href="index.html">
+           <img src="images/logo-red.png" class="logo">
+       </a>
+
+       <ul class="nav-links">
+           <li><a href="#" class="active">Popular Places</a></li>
+           <li><a href="travel.html">Travel Outside</a></li>
+           <li><a href="hotel.html">Hotels Packages</a></li>
+       </ul>
+       <a href="register.html" class="register-btn">Register Now</a>
+       <a href="#" class="fa-bars" onclick="togglebtn()">Menu</a>
+   </nav>
+  
+
+   <div class="login-section">
+    <div class="login-box">
+        <h2>Sign-Up</h2>
+
+        <form>
+            <input type="text" placeholder="Enter Full name" required>
+            <input type="text" placeholder="Enter E-mail Address" required>
+            <input type="number" placeholder="Enter Mobile No." required>
+            <input type="date" placeholder="Date of Birth" required>
+            <input type="password" placeholder="Enter Password" required>
+            <button type="submit">Register</button>
+        </form>
+
+        
+
+    </div>
+</div>
+  
+
+
+   <div class="container">
+    <div class="footer">
+        <img src="images/facebook-removebg-preview.png">
+        <img src="images/twitter-removebg-preview.png">
+        <img src="images/youtube-removebg-preview.png">
+        <img src="images\instagram-removebg-preview.png">
+        <hr>
+        <p>Copyright © 2025 reserved.<br>
+            Contact : +44 20 254 58.<br>
+            Shri S.P Hostel opps. Pankaj vidhyalaya, near bsnl office, gulbai tekra ellis-bridge, ahmedabad-380006. <br>
+            <h3> © Mit Devaiya | © Zeel Radadiya | © Krish Sarvaliya</h3>
+        </p>
+    </div>
+</div>
+    
+
+<script>
+    var navbar = document.getElementById("navbar");
+    function togglebtn(){
+        navbar.classList.toggle("hidemenu");
+    }
+</script>
+</body>
+</html>
